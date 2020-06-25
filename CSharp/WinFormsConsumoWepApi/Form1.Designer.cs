@@ -42,7 +42,7 @@
             // 
             // btnMostrarMusicas
             // 
-            this.btnMostrarMusicas.Location = new System.Drawing.Point(419, 17);
+            this.btnMostrarMusicas.Location = new System.Drawing.Point(482, 17);
             this.btnMostrarMusicas.Name = "btnMostrarMusicas";
             this.btnMostrarMusicas.Size = new System.Drawing.Size(123, 31);
             this.btnMostrarMusicas.TabIndex = 0;
@@ -55,7 +55,7 @@
             this.txtCidade.Location = new System.Drawing.Point(138, 21);
             this.txtCidade.MaxLength = 40;
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(259, 22);
+            this.txtCidade.Size = new System.Drawing.Size(322, 22);
             this.txtCidade.TabIndex = 1;
             // 
             // lblCidade
@@ -77,7 +77,7 @@
             this.dgMusicas.RowHeadersWidth = 20;
             this.dgMusicas.RowTemplate.Height = 24;
             this.dgMusicas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgMusicas.Size = new System.Drawing.Size(526, 193);
+            this.dgMusicas.Size = new System.Drawing.Size(589, 193);
             this.dgMusicas.TabIndex = 3;
             // 
             // MusicName
@@ -96,7 +96,7 @@
             this.tStripStatusInfo});
             this.sStripForm.Location = new System.Drawing.Point(0, 411);
             this.sStripForm.Name = "sStripForm";
-            this.sStripForm.Size = new System.Drawing.Size(562, 26);
+            this.sStripForm.Size = new System.Drawing.Size(617, 26);
             this.sStripForm.TabIndex = 4;
             this.sStripForm.Text = "statusStrip1";
             // 
@@ -112,14 +112,14 @@
             this.lstboxEstatisticas.ItemHeight = 16;
             this.lstboxEstatisticas.Location = new System.Drawing.Point(16, 270);
             this.lstboxEstatisticas.Name = "lstboxEstatisticas";
-            this.lstboxEstatisticas.Size = new System.Drawing.Size(526, 116);
+            this.lstboxEstatisticas.Size = new System.Drawing.Size(589, 116);
             this.lstboxEstatisticas.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 437);
+            this.ClientSize = new System.Drawing.Size(617, 437);
             this.Controls.Add(this.lstboxEstatisticas);
             this.Controls.Add(this.sStripForm);
             this.Controls.Add(this.dgMusicas);

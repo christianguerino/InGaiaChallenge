@@ -34,5 +34,7 @@ namespace ApiRest.Controllers
                 throw new HttpResponseException(Request.CreateErrorResponse(HttpStatusCode.Forbidden, "Id Inválido."));
             }
         }
+
+        
     }
 }

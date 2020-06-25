@@ -81,17 +81,25 @@ namespace ApiRest.Controllers
             #region obtem a lista de musicas
 
             //TODO: IMPLEMENTAR SPOTIFY AQUI
-            /*
-             * try
-            {
+            
+            //try
+            //{
+            //    string strcode = new Utils.SqlServer().GetSpotifyCode();
 
-            }
-            catch (Exception)
-            {
+            //    if (strcode.Length <= 0)
+            //    {
+            //        new Utils.WebRequest().SpotifyAuth();
+            //        strcode = new Utils.SqlServer().GetSpotifyCode();
+            //    }
 
-                throw;
-            }
-            */
+
+                
+            //}
+            //catch (Exception ex)
+            //{
+            //    //throw ex;
+            //}
+            
 
             IList<Music> lst = new List<Music>();
             lst.Add(new Music { MusicName = $"Musica {categ.ToString()} 1" });
